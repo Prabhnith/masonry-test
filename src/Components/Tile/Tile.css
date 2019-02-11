@@ -1,0 +1,7 @@
+.rectangle {
+    width: 200px;
+    display: inline-block;
+    /* break-inside: avoid; */
+    box-sizing: border-box;
+    margin: 3px;
+}
