@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
 class DisplayDiv extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-
+            id: this.props.match.params.id
         }
+    }
+
+    componentDidMount(){
+        // console.log(this.state.id);
     }
 
     render() {
