@@ -22,7 +22,7 @@ class Masonry extends Component {
         let tileList = [];
         for (let i = 0; i < 30; i++) {
             tileList.push(
-            <Link to={"/open/"+{i}}>
+            <Link to={"/open/"+i}>
                 <Tile id={i}/>
             </Link>
             )
